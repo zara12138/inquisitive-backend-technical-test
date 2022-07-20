@@ -42,7 +42,7 @@ yarn install
 yarn babel-node --extensions '.ts'  ./index.ts
 ```
 
-## You should see `Hello World`
+You should see `Hello World`
 
 ---
 
