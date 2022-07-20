@@ -1,0 +1,24 @@
+{
+  "name": "backend-technical-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Inquisitive-Learners/backend-technical-test.git",
+  "author": "Crespo Wang <crespo.wang@inquisitive.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime": "^7.18.9",
+    "@types/node": "^18.0.6",
+    "aws-sdk": "^2.1177.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0"
+  }
+}
