@@ -40,7 +40,9 @@ yarn install
 yarn babel-node --extensions '.ts'  ./index.ts
 ```
 
-You should see `Hello World`
+## You should see `Hello World`
+
+---
 
 ### Task 2. Call Inquisitive GraphQL API
 
@@ -291,6 +293,8 @@ Invoke the function from `index.ts`. An example of the response
 }
 ```
 
+---
+
 ### Task 3. Some data transformation
 
 Use the response data from Task 2, list the subject and lessons under each year group. For example,
@@ -309,6 +313,8 @@ Year 2
   ...
 ```
 
+---
+
 ### Task 4. Export to CSV
 
 Export the data from the previous task into a CSV format. For example,
@@ -319,6 +325,8 @@ Export the data from the previous task into a CSV format. For example,
 | Year 1 | Geography | Weather and Seasons      |
 | Year 1 | History   | Time Traveller           |
 | Year 1 | History   | Days, Months and Seasons |
+
+---
 
 ### Task 5. Upload the CSV to AWS S3.
 
@@ -334,5 +342,12 @@ So now you can write your code in `task5.ts`, upload the exported CSV from the p
 
 ---
 
-When you are done, make sure you commit your code, and let us know your github repo of your forked project.
+### Bouns Task
+
+If you feel like adding some test coverage, please do! Whatever unit test framework you like, whatever coverage you want.
+
+---
+
+#### When you are done, make sure you commit your code, and let us know your github repo of your forked project.
+
 Happy coding
