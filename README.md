@@ -12,9 +12,11 @@ We want this technical test to be close to our development environment, so the p
 
 ## Inquisitive Tech Stack
 
-From an infrastructure perspective, Inquisitive arguably runs on a full serverless stack. We use AWS Lambda for the main computing power, RDS + S3 for the storage, API Gateway, Cloudfront, SES, Elasticsearch and a few other services from AWS.
+From an infrastructure perspective, Inquisitive arguably runs on a full serverless stack. We use AWS Lambda for the main computing power, RDS + S3 for the storage, API Gateway, Cloudfront, SES, EventBridge, AppFlow, Kinesis and a few other services from AWS.
 
-From an application architecture perspective, Inqusitive is full stack TypeScript/JavaScript, meaning that we write TypeScript in both backend and frontend. More specicically we use React in frontend, Apollo Server running on NodeJS in the backend, GraphqQL is the API interface.
+From an application architecture perspective, Inqusitive is full stack TypeScript/JavaScript, meaning that we write TypeScript in both backend and frontend. More specicically we use React in frontend, Apollo Server running on NodeJS in the backend, GraphqQL is the API interface. 
+
+We also use SnowFlake, Metabase, Salesforce etc. for data warehouse, data analyzing, reporting and so on. We heavily rely on data to make bussiness decisions.
 
 ---
 
