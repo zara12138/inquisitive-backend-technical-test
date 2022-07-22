@@ -338,13 +338,14 @@ Export the data from the previous task into a CSV format. For example,
 
 ### Task 5. Upload the CSV to AWS S3.
 
-You should have received the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` from us. You will need them in order to upload to a S3 bucket which is managed by Inquisitive.
+You should have received the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` from us. You will need them in order to use aws sdk to upload to a S3 bucket which is managed by Inquisitive.
 After you get the credentails, create a file named `.env`, put the following into the file.
 
 ```
 AWS_ACCESS_KEY_ID=the-id-you-received
 AWS_SECRET_ACCESS_KEY=the-key-you-received
 ```
+The `dovenv` library will load the environment variables from the `.env` into your local environment for aws-sdk to use.
 
 So now you can write your code in `task5.ts`, upload the exported CSV from the previous task to a S3 bucket we've created for you, the name of the bucket is `inquisitive-backend-developer-tests'`, you should upload the file under a folder with your name.
 
