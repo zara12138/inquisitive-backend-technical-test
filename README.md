@@ -340,6 +340,8 @@ AWS_SECRET_ACCESS_KEY=the-key-you-received
 
 So now you can write your code in `task5.ts`, upload the exported CSV from the previous task to a S3 bucket we've created for you, the name of the bucket is `inquisitive-backend-developer-tests'`, you should upload the file under a folder with your name.
 
+Hint. You should use the `putObject` function from the AWS SDK. See https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property
+
 ---
 
 ### Bouns Task
